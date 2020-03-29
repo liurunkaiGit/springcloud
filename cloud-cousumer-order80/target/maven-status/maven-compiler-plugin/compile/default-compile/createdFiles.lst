@@ -1,0 +1,5 @@
+com\liurk\springcloud\entry\CommonResult.class
+com\liurk\springcloud\OrderApplication.class
+com\liurk\springcloud\controller\OrderController.class
+com\liurk\springcloud\entry\Payment.class
+com\liurk\springcloud\config\ApplicationContextConfig.class
