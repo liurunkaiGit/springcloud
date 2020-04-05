@@ -1,0 +1,3 @@
+com\liurk\springcloud\OrderConsulApplication.class
+com\liurk\springcloud\controller\OrderController.class
+com\liurk\springcloud\config\ApplicationContextConfig.class

@@ -1,0 +1,12 @@
+server:
+  port: 80
+  servlet:
+    context-path: /orderService
+
+spring:
+  application:
+    # 注册进zookeeper服务的服务名称
+    name: cloud-consumer-order
+  cloud:
+    zookeeper:
+      connect-string: 192.168.37.128:2181

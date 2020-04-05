@@ -1,0 +1,15 @@
+server:
+  port: 80
+  servlet:
+    context-path: /orderService
+
+spring:
+  application:
+    # 注册进zookeeper服务的服务名称
+    name: cloud-consumer-order
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: ${spring.application.name}

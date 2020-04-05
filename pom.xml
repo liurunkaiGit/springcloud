@@ -39,6 +39,13 @@
     <module>cloud-provider-payment8001</module>
     <module>cloud-cousumer-order80</module>
     <module>cloud-api-common</module>
+      <module>cloud-eureka-server7001</module>
+    <module>cloud-eureka-server7002</module>
+    <module>cloud-provider-payment8002</module>
+      <module>cloud-provider-payment8004</module>
+      <module>cloud-cousumerZk-order80</module>
+      <module>cloud-providerconsul-payment8006</module>
+      <module>cloud-cousumerConsul-order80</module>
   </modules>
 
   <name>Maven</name>
