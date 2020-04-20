@@ -3,11 +3,15 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-feign-order80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-useCustomizeLoadBalance-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-cousumer-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-cousumerConsul-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-cousumerZk-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-server7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-server7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8004" charset="UTF-8" />

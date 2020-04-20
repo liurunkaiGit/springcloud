@@ -39,6 +39,5 @@ public class OrderController {
     public CommonResult<Payment> selectPaymentById(Long id) {
         CommonResult commonResult = restTemplate.getForObject(PAYMENT_URL + "/payment/selectPaymentById?id=" + id, CommonResult.class);
         return commonResult;
-
     }
 }

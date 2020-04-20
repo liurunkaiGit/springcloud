@@ -11,6 +11,7 @@ import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @Description:
@@ -33,6 +34,11 @@ public class PaymentController {
     @GetMapping(value = "/selectPaymentById")
     public CommonResult<Payment> selectPaymentById(Long id) {
         Payment payment = this.paymentService.selectPaymentById(id);
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         log.info("payment is {},port is {}", payment, port);
         return new CommonResult(200, "成功", payment);
     }
